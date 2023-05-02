@@ -14,3 +14,7 @@
 (* (fn x => (fn y => x + x)) 4 *)
 (* (fn x => fn y => x + 2*y) 2 (3*2) *)
 (* (fn f => (fn g => g 5 + 2) f) (fn x => x + x) *)
+(* fn x => 2 + 2 *)
+(* (fn x => fn y => x * y) (3+2) 10 div 2 *)
+(* (fn y => 2 - y) 3 - 5 *)
+(* (fn x => if true then 1 else 0) *)
